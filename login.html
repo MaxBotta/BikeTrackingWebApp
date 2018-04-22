@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+
+<div class="container-fluid nopadding">
+    <div class="row nopadding">
+        <div class="col-sm-8 background nopadding">
+            <img class="img" src="background.jpg">
+        </div>
+        <div id="login" class="col-sm-4 nopadding">
+            <form action="">
+                <div class="imgcontainer">
+                    <img src="ich.jpg" alt="Avatar" class="avatar">
+                </div>
+
+                <div class="logincontainer">
+                    <label for="uname"></label>
+                    <input class="input" type="text" placeholder="Enter Username" name="uname" required>
+
+                    <label for="psw"></label>
+                    <input class="input" type="password" placeholder="Enter Password" name="psw" required>
+
+                    <button class="submit" type="submit">Login</button>
+                    <label>
+                        <input type="checkbox" checked="checked" name="remember"> Remember me
+                    </label>
+                </div>
+
+                <div class="cancel">
+                    <button type="button" class="cancelbtn">Cancel</button>
+                    <span class="psw">Forgot <a href="#">password?</a></span>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

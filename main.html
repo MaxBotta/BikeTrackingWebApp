@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap 4 Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <script src="MapStyle.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA4cc3SVVvTcpupn9kAt-AyskWqycJUSNM"></script>
+    <script src="showMap.js"></script>
+    <script src="showGraphs.js"></script>
+    <script src="main.js"></script>
+
+</head>
+<body>
+
+<!--<nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">-->
+    <!--&lt;!&ndash; Brand &ndash;&gt;-->
+    <!--<a class="navbar-brand" href="#">Navbar</a>-->
+
+    <!--&lt;!&ndash; Toggler/collapsibe Button &ndash;&gt;-->
+    <!--<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">-->
+        <!--<span class="navbar-toggler-icon"></span>-->
+    <!--</button>-->
+
+    <!--&lt;!&ndash; Navbar links &ndash;&gt;-->
+    <!--<div class="collapse navbar-collapse" id="collapsibleNavbar">-->
+        <!--<ul class="navbar-nav">-->
+            <!--<li class="nav-item">-->
+                <!--<a class="nav-link" href="#">Link</a>-->
+            <!--</li>-->
+            <!--<li class="nav-item">-->
+                <!--<a class="nav-link" href="#">Link</a>-->
+            <!--</li>-->
+            <!--<li class="nav-item">-->
+                <!--<a class="nav-link" href="#">Link</a>-->
+            <!--</li>-->
+        <!--</ul>-->
+    <!--</div>-->
+<!--</nav>-->
+<!-- A vertical navbar -->
+
+<div class="navigation">
+    <div id="profile" class="category profile">
+        <div class="icon fa fa-user-circle"></div>
+
+    </div>
+    <div id="location" class="category location">
+        <div class="icon fa fa-map-marker"></div>
+
+    </div>
+    <div class="category graph">
+        <div class="icon fa fa-bar-chart"></div>
+
+    </div>
+
+</div>
+
+
+<div class="allContainer nopadding">
+    <div id="contentContainer" class="row nopadding h-100">
+        <div id="content" class="col-sm-12 nopadding">
+
+        </div>
+    </div>
+    <div class="currentSpeed rounded-circle">
+         <!--<span class="icon rounded-circle">-->
+
+        <!--</span>-->
+    </div>
+
+
+    <!--<div id="information" class="nopadding">-->
+        <!--<div id="account" class="col-sm-12">-->
+        <!--<span class="rounded-circle"></span>-->
+        <!--</div>-->
+    <!--</div>-->
+</div>
+
+</body>
+</html>
